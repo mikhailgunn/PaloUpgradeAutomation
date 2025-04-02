@@ -1,6 +1,3 @@
-To specify the version to which you want the firewalls to upgrade, you can add a column in your CSV file for the version and modify the script accordingly. Here’s how you can adjust the script:
-
-```python
 import csv
 from panos.firewall import Firewall
 from panos_upgrade_assurance import UpgradeAssurance
